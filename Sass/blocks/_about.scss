@@ -1,0 +1,147 @@
+.about {
+    background-color: #F2F2F2;
+
+    h2 {
+        margin: 65px auto 40px;
+    }
+}
+
+ .about__company {
+    margin: 0 auto;
+    width: 720px;
+ }
+
+.about__menu-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 650px;
+    margin: 0 0 35px 0;
+    
+
+    a {
+        font-size: 18px;
+        color: #2F2F51;
+        padding: 8px 26px 10px;
+        border-radius: 3px;
+    }
+
+    a:hover {
+        font-weight: 700;
+        color: #fff;
+        background-color: #EF7F04;
+        
+    }
+}
+
+.about__offer {
+    display: flex;
+    margin-bottom: 68px;
+}
+
+// @media screen and (max-width:992px) {
+   .about__img {
+       // display: none;
+       background: url('../../img/Rectangle_36.jpg') no-repeat;
+       width: 45%;
+     }
+// }
+
+.about__offer-logo {
+    background-color: #fff;
+    width: 55%;//616px;
+
+    svg {
+        margin: 46px 0 58px 50px;
+    }
+
+    .about__text {
+        position: relative;
+        width: 305px;
+        left: 320px;//248px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    @media screen and (max-width:992px) {
+        .about__text {
+            left: 148px;
+        }
+    }
+}
+
+.advantage {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+@media screen and (max-width:992px) {
+    .advantage {
+        height: 350px;
+    }
+}
+
+
+.item {
+    display: flex;
+    width: 29%;
+
+    svg {
+        width: 106px;
+        margin-right: 23px;
+    }
+
+    
+
+    h3 {
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #2F2F51;
+        margin-bottom: 10px;
+        line-height: 26px;
+    }
+
+    p {
+        width: 215px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .item {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+}
+
+.size1 {
+    margin: 82px auto 87px;
+}
+
+.bttn_about {
+    position: relative;
+    height: 55px;
+    width: 312px;
+    margin: 82px auto 87px;
+    padding: 17px 32px 18px 28px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #EF7F04;
+    border-width: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: end;
+
+    img {
+        width: 20px;
+        position:absolute;
+        left: 28px;
+        margin-right: 24px;
+    }
+
+}

@@ -1,0 +1,40 @@
+.footer {
+    height: 146px;
+    background-color: #2F2F51;
+    color: #fff;
+}
+
+.displacement {
+    justify-content: space-between;
+    height: inherit;
+    align-items: center;
+}
+
+.footer__left-side {
+    display: flex;
+    justify-content: space-between;
+    width: 26%;
+}
+
+@media screen and (max-width:992px) {
+    .footer__left-side {
+        width: 35%;
+    }
+}
+
+.footer__info {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:992px) {
+    .footer__info {
+        width: 55%;
+    }
+}
+
+.footer__cpyright {
+    font-size: 16px;
+    margin: auto 0;
+}
